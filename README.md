@@ -1,14 +1,6 @@
 # convolution-kernel
 My very first coding assignment as an SD student at GMIT, handed in in August 2021.
 
-•••••••••••••••••••••••••••••••••••••••••••••••••••
-• GMIT - Dept. Computer Science & Applied Physics •
-•                                                 •
-•           Image Filtering System V0.1           •
-•     H.Dip in Science (Software Development)     •
-•                                                 •
-•••••••••••••••••••••••••••••••••••••••••••••••••••
-
 	NOTE:
 	
 When compiling the code, please use UTF8 encoding to ensure localized versions are displayed correctly:
