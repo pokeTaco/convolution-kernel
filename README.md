@@ -30,11 +30,11 @@ This app is a command line menu-driven Java application capable of filtering a P
 - Edge handling has been implemented (extend nearest border pixel).
 
 - SRP/Encapsulation: A Menu class has been added, relieving the Runner class from the task of interacting with the user:
-<> = “interacts with”
+	<> = “interacts with”
 
-Buffer <> Runner <> Menu <> User
+	Buffer <> Runner <> Menu <> User
 
-The Runner keeps the app running. In each cycle, it monitors and interacts with the buffer as needed. It then calls the Menu, passing on relevant information, and the Menu provides a user interface based on this information.
+	The Runner keeps the app running. In each cycle, it monitors and interacts with the buffer as needed. It then calls the Menu, passing on relevant information, and the Menu provides a user interface based on this information.
 
 - Any user-facing strings have been organised in an Enum class to keep the code clean and allow for some basic localization via the L10n class. To demonstrate this, I have implemented a German version. You can change the language in the main menu.
 
