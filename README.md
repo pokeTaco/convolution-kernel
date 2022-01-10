@@ -39,5 +39,7 @@ The Runner keeps the app running. In each cycle, it monitors and interacts with 
 	REFERENCES:
 
 This app uses code from external sources as commented in the respective files:
+
 • The ConsoleFX.clearConsole method
+
 • The chained call of ZonedDateTime methods in ImageBuffer.appendFileName, lines 45 and 46
